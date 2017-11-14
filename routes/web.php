@@ -26,3 +26,5 @@ Route::get('contact', function () {
 Route::get('profile', function () {
     return view('Task1.profile');
 });
+
+Route::resource('articles','articlesController');
