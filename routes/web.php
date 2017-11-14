@@ -16,7 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('home', function () {
-    return view('Task1.layout');
+    return view('Task1.home');
 });
 
+Route::get('contact', function () {
+    return view('Task1.contact');
+});
 
+Route::get('profile', function () {
+    return view('Task1.profile');
+});
